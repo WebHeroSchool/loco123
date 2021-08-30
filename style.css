@@ -12,8 +12,9 @@ wrapper {
 }
 
 .header__rectangle {
-  height: 461px;
-  background: radial-gradient(to right, black 30%, white 70%);
+  height: 900px;
+  width: 461px;
+  background-color: black;
 }
 
 .hamburger-menu {
@@ -72,7 +73,7 @@ wrapper {
 }
 
 .first-page {
-  padding: 100px 100px 100px 100px;
+  padding: 7% 50% 7% 50%;
 }
 
 .first-page__image{
