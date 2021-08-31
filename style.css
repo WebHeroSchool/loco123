@@ -78,8 +78,8 @@ wrapper {
   padding: 7% 50% 7% 50%;
 }
 
-.first-page__image{
-  background-image: url(img/img.svg);
+.first-page__image {
+  background: url(img/img.svg);
   position: absolute;
   padding: 61px 0 0 50px;
   width: 100px;
