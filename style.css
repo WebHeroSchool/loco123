@@ -89,15 +89,16 @@ wrapper {
 }
 
 .first-page__title {
-    margin: 0 5px 31px 0;
+    margin: 110px 5px 10px 600px;
     font: bold 80px/83px montserratbold, arial, helvetica, sans-serif;
     color: black;
   }
 
   .first-page__subtitle1 {
     margin: 0 50px 40px 0;
-    font: 15px/18px montserratregular, arial, helvetica, sans-serif;
+    font: 18px/18px montserratregular, arial, helvetica, sans-serif;
     color: black;
+    width: 500px;
   }
 
   .first-page__subtitle2 {
