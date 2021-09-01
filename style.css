@@ -75,15 +75,15 @@ wrapper {
 }
 
 .first-page {
-  padding: 7% 50% 7% 50%;
+  padding: 150px 0 7% 185px;
 }
 
 .first-page__image {
   background: no-repeat url(img/img.png);
   position: absolute;
   padding: 61px 0 0 50px;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 497px;
   background-size: contain;
   z-index: 2;
 }
