@@ -79,7 +79,7 @@ wrapper {
 }
 
 .first-page__image {
-  background: url(img/img.svg);
+  background: no-repeat url(img/img.png);
   position: absolute;
   padding: 61px 0 0 50px;
   width: 100px;
