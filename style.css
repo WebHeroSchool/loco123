@@ -19,9 +19,20 @@ wrapper {
   justify-content: space-between;
 }
 
-.header__logo {
+.header__logo1 {
   position: absolute;
-  padding: 1px 0 0 0;
+  padding: 40px 0 0 52px;
+  font: 30px/30px montserratmedium, arial, helvetica, sans-serif;
+  color: white;
+  z-index: 2;
+}
+
+.header__logo2 {
+  position: absolute;
+  padding: 43px 0 0 390px;
+  font: 20px/20px montserratmedium, arial, helvetica, sans-serif;
+  color: white;
+  z-index: 2;
 }
 
 .hamburger-menu {
