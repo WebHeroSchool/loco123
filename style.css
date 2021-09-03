@@ -162,7 +162,7 @@ wrapper {
 }
 
 .first-page {
-  padding: 150px 0 7% 185px;
+  padding: 150px 0 20% 185px;
 }
 
 .first-page__image {
@@ -183,7 +183,7 @@ wrapper {
 
   .first-page__subtitle1 {
     position: absolute;
-    margin: 5px 50px 40px 603px;
+    margin: 7px 50px 40px 603px;
     font: 15px/21px montserratregular, arial, helvetica, sans-serif;
     color: black;
     width: 450px;
