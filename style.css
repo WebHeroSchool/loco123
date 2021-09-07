@@ -309,11 +309,3 @@ wrapper {
    background-size: contain;
    z-index: 2;
 }
-
-.second-page {
-  font: 30px/31px montserratmedium, arial, helvetica, sans-serif;
-}
-
-.third-page {
-  font: bold 30px/31px montserratregular, arial, helvetica, sans-serif;
-}
