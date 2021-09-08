@@ -162,7 +162,7 @@ wrapper {
   list-style: none;
   text-align: center;
   background-color: mistyrose;
-  box-shadow: 50px 10px 1px rgba(0, 0, 0, .9);
+  box-shadow: 28px 14px 24px rgba(0, 0, 0, .9);
   z-index: 3;
 }
 
@@ -207,7 +207,7 @@ wrapper {
 .first-page__image {
   background: no-repeat url(img/img.png);
   position: absolute;
-  padding: 61px 0 0 50px;
+  padding: 61px 0 3px 50px;
   width: 500px;
   height: 497px;
   background-size: contain;
