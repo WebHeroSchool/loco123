@@ -314,8 +314,62 @@ wrapper {
    z-index: 2;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 1600px) {
+  .wrapper__rectangle {
+     height: 100%;
+   }
 
+  .first-page {
+     padding: 6% 0 20% 7%;
+   }
+
+   .first-page__image {
+      width: 50%;
+      height: 50%;
+   }
+
+   .first-page__title {
+      margin: 10% 5px 10px 50%;
+   }
+
+   .first-page__subtitle1 {
+      margin: 1% 50px 40px 47%;
+    }
+
+    .first-page__button {
+       margin: 11% 0 20px 47%;
+    }
+
+    .first-page__subtitle2 {
+       margin: 12% 50px 40px 62%;
+    }
+
+.first-page__image2 {
+    margin: 35% 0 0 0;
+  }
+
+.first-page__image3 {
+    margin: 35% 0 0 5%;
+  }
+
+.first-page__image4 {
+    margin: 35% 0 0 10%;
+  }
+
+.first-page__image5 {
+    margin: 35% 0 0 20%;
+  }
+
+.first-page__image6 {
+    margin: 35% 0 0 40%;
+  }
+
+.first-page__image7 {
+    margin: 12% 0 0 73%;
+  }
+}
+
+@media (max-width: 375px) {
   .header__logo1 {
     position: absolute;
     padding: 85px 0 0 27px;
