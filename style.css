@@ -379,7 +379,7 @@ wrapper {
   }
 
   .header__rectangle1 {
-    position: absolute;
+    position: inherit;
     height: 317px;
     width: 69px;
     background-color: white;
