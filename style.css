@@ -359,6 +359,10 @@ wrapper {
     .first-page__image7 {
        margin: 12% 0 0 73%;
     }
+
+    .first-page__image8 {
+      display: none;
+    }
    }
 
 @media (max-width: 375px) {
@@ -369,7 +373,7 @@ wrapper {
   }
 
   .header__logo1 {
-    position: relative;
+    position: fixed;
     padding: 85px 0 0 27px;
     font: bold 32px/40px montserratmedium, arial, helvetica, sans-serif;
     color: black;
@@ -382,19 +386,19 @@ wrapper {
 
   .header__rectangle {
     display: flex;
-    width: 370px;
-    height: 63px;
+    width: 375px;
+    height: 85px;
     background-color: white;
-    padding: 70px 0 0 0;
-    position: relative;
+    padding: 50px 0 0 0;
+    position: fixed;
     z-index: 2;
   }
 
    .menu__btn {
-     width: 19px;
-     height: 20px;
-     padding: 20px 20px;
-     margin: 71px 488px 0;
+     margin-top: 60px;
+     width: 27px;
+     height: 37px;
+     padding: 22px 20px;
    }
 
    .menu__btn > span,
@@ -403,9 +407,14 @@ wrapper {
      width: 27px;
    }
 
+   .menu__btn > span::before {
+    content: '';
+    top: 0px;
+  }
+
    .menu__btn > span::after {
      content: '';
-     top: 7px;
+     top: 9px;
    }
 
    .first-page {
@@ -416,17 +425,17 @@ wrapper {
 
     .first-page__image {
      background: no-repeat url(img/img7.png);
-     position: relative;
-     padding: 0 0 3px 0;
-     width: 720px;
-     height: 580px;
+     position: fixed;
+     margin: 55px 0 0 0;
+     width: 750px;
+     height: 520px;
      background-size: contain;
      z-index: 1;
    }
 
     .first-page__title {
-      margin: 423px 5px 10px 25px;
-      font: bold 50px/50px montserratbold, arial, helvetica, sans-serif;
+      margin: 475px 10px 20px 27px;
+      font: bold 50px/52px montserratbold, arial, helvetica, sans-serif;
       color: black;
       z-index: 2;
     }
@@ -465,5 +474,15 @@ wrapper {
 
     .first-page__image7 {
       display: none;
+    }
+
+    .first-page__image8 {
+      background: no-repeat url(img/img8.png);
+      position: fixed;
+      padding: 15px 0 0 35px;
+      margin: 159% 0 0 45%;
+      height: 30px;
+      background-size: contain;
+      z-index: 3;
     }
   }
