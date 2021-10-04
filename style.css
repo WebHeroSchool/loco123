@@ -486,3 +486,67 @@ wrapper {
       z-index: 3;
     }
   }
+
+    .wrap {
+      position: fixed;
+      height: 900px;
+      width: 1440px;
+      background-color: #fae8e4;
+      margin-top: 175px;
+    }
+
+    .second-page {
+      display: flex;
+    }
+
+    .second-page__image1 {
+      background: no-repeat url(img/bag.svg);
+      position: fixed;
+      padding: 57% 0 0 45%;
+      margin: 15% 0 0 17%;
+      background-size: contain;
+      z-index: 3;
+    }
+
+    .second-page__image2 {
+      background: no-repeat url(img/bag1.svg);
+      position: fixed;
+      padding: 27% 0 0 40%;
+      margin: 27% 0 0 10%;
+      background-size: contain;
+      z-index: 2;
+   }
+
+   .second-page__rectangle {
+      width: 488px;
+      height: 556px;
+      background-color: white;
+      margin: 342px 0 0 61%;
+      position: fixed;
+      z-index: 2;
+   }
+
+   .second-page__title {
+      position: fixed;
+      margin: 390px 0 0 65%;
+      font: bold 40px/42px montserratbold, arial, helvetica, sans-serif;
+      color: black;
+      z-index: 3;
+   }
+
+   .second-page__subtitle1 {
+      position: fixed;
+      margin: 445px 0 0 65%;
+      font: bold 18px/18px montserratbold, arial, helvetica, sans-serif;
+      color: #696969;
+      z-index: 3;
+   }
+
+   .second-page__subtitle2 {
+      position: fixed;
+      margin: 530px 0 0 65%;
+      width: 384px;
+      font: bold 15px/16px montserratbold, arial, helvetica, sans-serif;
+      color: #696969;
+      z-index: 3;
+    }
