@@ -300,19 +300,20 @@ flex: 1 1 auto;
 .image1 {
    background: no-repeat url(img/img1.svg);
    position: relative;
-   padding: 15px 0 0 650px;
-   display: flex;
-   height: 30px;
+   padding: 23px;
+   top: 49%;
+   right: 802px;
    background-size: contain;
    z-index: 2;
+
 }
 
 .image2 {
    background: no-repeat url(img/img2.svg);
    position: relative;
-   padding: 15px 0 0 650px;
-   display: flex;
-   height: 30px;
+   padding: 23px;
+   top: 49%;
+   right: 795px;
    background-size: contain;
    z-index: 2;
 }
@@ -320,9 +321,9 @@ flex: 1 1 auto;
 .image3 {
    background: no-repeat url(img/img3.svg);
    position: relative;
-   padding: 15px 0 0 650px;
-   top: 370px;
-   display: flex;
+   padding: 23px;
+   top: 49%;
+   right: 785px;
    background-size: contain;
    z-index: 2;
 }
@@ -331,8 +332,9 @@ flex: 1 1 auto;
    background: no-repeat url(img/mouse.png) center;
    position: relative;
    padding: 9px 0 0 650px;
-   display: flex;
    height: 41px;
+   top: 49%;
+   right: 76%;
    background-size: contain;
    z-index: 2;
 }
