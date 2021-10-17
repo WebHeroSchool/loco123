@@ -236,6 +236,8 @@ flex: 1 1 auto;
   height: 560px;
   background-size: contain;
   z-index: 2;
+  display: flex;
+  flex-shrink: 1;
 }
 
 .first-page__title {
@@ -245,6 +247,8 @@ flex: 1 1 auto;
     width: 100px;
     font: bold 80px/80px montserratbold, arial, helvetica, sans-serif;
     color: black;
+    display: flex;
+    flex-shrink: 1;
   }
 
   .first-page__subtitle1 {
@@ -255,6 +259,8 @@ flex: 1 1 auto;
     color: black;
     width: 450px;
     z-index: 2;
+    display: flex;
+    flex-shrink: 1;
   }
 
   .first-page__button {
@@ -269,6 +275,8 @@ flex: 1 1 auto;
     text-decoration: none;
     border-radius: 4px;
     z-index: 2;
+    display: flex;
+    flex-shrink: 0.3;
   }
 
   .first-page__subtitle2 {
@@ -278,6 +286,8 @@ flex: 1 1 auto;
     font: 13px/15px montserratmedium, arial, helvetica, sans-serif;
     width: 400px;
     color: black;
+    display: flex;
+    flex-shrink: 0.3;
   }
 
   .image6 {
@@ -289,6 +299,8 @@ flex: 1 1 auto;
      height: 9px;
      background-size: contain;
      z-index: 2;
+     display: flex;
+     flex-shrink: 0.3;
   }
 
   .footer {
@@ -339,64 +351,6 @@ flex: 1 1 auto;
    z-index: 2;
 }
 
-@media (min-width: 1500px) {
-  .wrapper__rectangle {
-     height: 100%;
-   }
-
-  .first-page {
-     padding: 6% 0 20% 7%;
-   }
-
-   .first-page__image {
-      width: 50%;
-      height: 50%;
-   }
-
-   .first-page__title {
-      margin: 10% 5px 10px 50%;
-   }
-
-   .first-page__subtitle1 {
-      margin: 1% 50px 40px 47%;
-    }
-
-    .first-page__button {
-       margin: 11% 0 20px 47%;
-    }
-
-    .first-page__subtitle2 {
-       margin: 12% 50px 40px 62%;
-    }
-
-    .first-page__image2 {
-       margin: 35% 0 0 0;
-    }
-
-    .first-page__image3 {
-       margin: 35% 0 0 5%;
-    }
-
-    .first-page__image4 {
-       margin: 35% 0 0 10%;
-    }
-
-   .first-page__image5 {
-       margin: 35% 0 0 20%;
-    }
-
-    .first-page__image6 {
-       margin: 35% 0 0 40%;
-    }
-
-    .first-page__image7 {
-       margin: 12% 0 0 73%;
-    }
-
-    .first-page__image8 {
-      display: none;
-    }
-   }
 
 @media (max-width: 375px) {
   .wrapper__rectangle {
@@ -406,8 +360,9 @@ flex: 1 1 auto;
   }
 
   .header__logo1 {
-    position: fixed;
-    padding: 85px 0 0 27px;
+    position: relative;
+    top: 85px;
+    left: 27px;
     font: bold 32px/40px montserratmedium, arial, helvetica, sans-serif;
     color: black;
     z-index: 3;
@@ -420,20 +375,19 @@ flex: 1 1 auto;
   .header__rectangle {
     display: flex;
     width: 375px;
-    height: 85px;
+    height: 66px;
     background-color: white;
-    padding: 50px 0 0 0;
-    position: fixed;
+    top: 70px;
+    position: absolute;
     z-index: 2;
   }
 
-   .menu__btn {
-     margin-top: 60px;
-     width: 27px;
-     height: 37px;
-     padding: 22px 20px;
-   }
-
+  .menu__btn {
+    position: relative;
+    padding: 25px;
+    margin: 57px -9px 0;
+    z-index: 2;
+  }
    .menu__btn > span,
    .menu__btn > span::before,
    .menu__btn > span::after {
@@ -456,18 +410,23 @@ flex: 1 1 auto;
      padding: inherit;
     }
 
-    .first-page__image {
+    .image {
      background: no-repeat url(img/img7.png);
-     position: fixed;
-     margin: 55px 0 0 0;
+     position: relative;
+     top: -200px;
+     left: 0;
      width: 750px;
-     height: 520px;
+     height: 585px;
      background-size: contain;
      z-index: 1;
    }
 
     .first-page__title {
-      margin: 475px 10px 20px 27px;
+      position: relative;
+      top: -410px;
+      right: 10px;
+      bottom: 20px;
+      left: 27px;
       font: bold 50px/52px montserratbold, arial, helvetica, sans-serif;
       color: black;
       z-index: 2;
@@ -485,36 +444,33 @@ flex: 1 1 auto;
       display: none;
     }
 
-    .first-page__image2 {
+    .image1 {
       display: none;
     }
 
-    .first-page__image3 {
+    .image2 {
       display: none;
     }
 
-    .first-page__image4 {
+    .image3 {
       display: none;
     }
 
-    .first-page__image5 {
+    .image4 {
       display: none;
     }
 
-    .first-page__image6 {
+    .image6 {
       display: none;
     }
 
-    .first-page__image7 {
-      display: none;
-    }
-
-    .first-page__image8 {
+    .image5 {
       background: no-repeat url(img/img8.png);
-      position: fixed;
+      position: absolute;
       padding: 15px 0 0 35px;
-      margin: 159% 0 0 45%;
-      height: 30px;
+      top: 34%;
+      left: 46%;
+      height: 3px;
       background-size: contain;
       z-index: 3;
     }
