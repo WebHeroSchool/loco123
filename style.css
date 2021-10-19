@@ -361,7 +361,7 @@ flex: 1 1 auto;
     height: 150%;
     width: 160%;
   }
-
+  
   .header__logo1 {
     position: relative;
     top: 100px;
@@ -392,7 +392,7 @@ flex: 1 1 auto;
   .menu__btn {
     position: relative;
     padding: 25%;
-    margin: 45% 65% 0;
+    margin: 45% 31% 0;
     z-index: 2;
   }
    .menu__btn > span,
@@ -423,7 +423,7 @@ flex: 1 1 auto;
       position: relative;
       top: -200px;
       left: 0;
-      width: 140%;
+      width: 150%;
       height: 440%;;
       z-index: 1;
    }
@@ -473,15 +473,21 @@ flex: 1 1 auto;
 
     .image5 {
       background: no-repeat url(img/img8.png);
-      position: absolute;
+      position: relative;
       padding: 25px;
-      top: 105%;
-      left: 70%;
+      top: 310%;
+      left: -200px;
       height: 10px;
       background-size: contain;
+      float: left;
       z-index: 3;
     }
   }
+
+  @media (max-width: 632px) {
+    .image5 {
+      left: -120px;
+    }
 
 @media (max-width: 375px) {
   .wrapper__rectangle {
