@@ -379,7 +379,7 @@ flex: 1 1 auto;
 .second-page__bag1 {
   background: no-repeat url(img/bag.svg);
   position: relative;
-  top: 35px;
+  top: 10px;
   left: 235px;
   width: 575px;
   height: 890px;
@@ -393,10 +393,10 @@ flex: 1 1 auto;
 .second-page__bag2 {
   background: no-repeat url(img/bag1.svg);
   position: relative;
-  top: -690px;
-  left: 130px;
+  top: -697px;
+  left: 135px;
   width: 400px;
-  height: 770px;
+  height: 400px;
   background-size: contain;
   z-index: 1;
   display: flex;
@@ -406,7 +406,7 @@ flex: 1 1 auto;
 
 .second-page__rectangle {
   position: relative;
-  top: -1490px;
+  top: -1138px;
   left: 880px;
   width: 488px;
   height: 556px;
@@ -598,6 +598,156 @@ flex: 1 1 auto;
    width: 1440px;
    background-color: #ebe3d8;
    z-index: 1;
+}
+
+.third-page__content {
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 1 1 auto;
+  }
+
+.third-page__rectangle {
+   position: relative;
+   top: 0;
+   left: 389px;
+   width: 73px;
+   height: 900px;
+   background-color: black;
+   z-index: 1;
+   display: flex;
+   flex-shrink: 2;
+   flex-basis: 73px;
+}
+
+.third-page__clothes {
+   background: no-repeat url(img/clothes.png);
+   position: relative;
+   top: -760px;
+   left: 90px;
+   width: 900px;
+   height: 622px;
+   background-size: contain;
+   z-index: 2;
+   display: flex;
+   flex-shrink: 2;
+   flex-basis: 900px;
+}
+
+.third-page__rectangle1 {
+   position: relative;
+   top: -1260px;
+   left: 815px;
+   width: 475px;
+   height: 351px;
+   background-color: #fae8e4;
+   z-index: 3;
+   display: flex;
+   flex-shrink: 2;
+   flex-basis: 475px;
+}
+
+.third-page__title {
+   position: absolute;
+   top: 0;
+   left: 48px;
+   font: bold 40px/40px montserratbold, arial, helvetica, sans-serif;
+   color: black;
+   display: flex;
+   width: 400px;
+   flex-shrink: 1;
+   flex-basis: 500px;
+}
+
+.third-page__subtitle1 {
+  position: absolute;
+  top: 72px;
+  left: 50px;
+  font: bold 16px/17px montserratbold, arial, helvetica, sans-serif;
+  letter-spacing: 0.07em;
+  opacity: 0.5;
+  color: black;
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: 500px;
+}
+
+.third-page__subtitle2 {
+  position: absolute;
+  top: 121px;
+  left: 50px;
+  font: bold 15px/21px montserratregular, arial, helvetica, sans-serif;
+  opacity: 0.5;
+  width: 500px;
+  color: black;
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: 500px;
+}
+
+.third-page__button1 {
+  position: absolute;
+  display: inline-block;
+  font: 15px/15px montserratmedium, arial, helvetica, sans-serif;
+  color: black;
+  background: #fae8e4;
+  padding: 13px 19px 13px 19px;
+  top: 255px;
+  left: 48px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 2;
+  display: flex;
+  flex-shrink: 0.3;
+  flex-basis: 203px;
+}
+
+.third-page__button2 {
+  position: absolute;
+  display: inline-block;
+  font: 13px/13px montserratmedium, arial, helvetica, sans-serif;
+  color: black;
+  background: #fae8e4;
+  padding: 15px 43px 14px 41px;
+  top: 255px;
+  left: 165px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 2;
+  display: flex;
+  flex-shrink: 0.3;
+  flex-basis: 203px;
+}
+
+.third-page__footer {
+  display: flex;
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 0 0 auto;
+}
+
+.third-page__subtitle4 {
+  position: absolute;
+  top: 2433px;
+  left: 950px;
+  font: 13px/16px montserratmedium, arial, helvetica, sans-serif;
+  color: black;
+  display: flex;
+  flex-shrink: 0;
+  width: 299px;
+  flex-basis: 299px;
+  z-index: 2;
+}
+
+.third-page__arrow {
+  background: no-repeat url(img/Vector2.png);
+  position: absolute;
+  top: 2446px;
+  right: 145px;
+  width: 111px;
+  height: 70px;
+  background-size: contain;
+  z-index: 2;
+  display: flex;
+  flex-shrink: 0;
+  flex-basis: 241px;
 }
 
 @media (min-width: 2000px) {
@@ -851,13 +1001,15 @@ flex: 1 1 auto;
   }
 
   @media (max-width: 375px) {
+    .content {
+      background: center center no-repeat url(img/girl.jpg);
+      margin: 0;
+      width: 100%;
+      background-size: 100%;
+    }
+
     .image {
-      background: no-repeat url(img/img7.png);
-      top: 75px;
-      left: -295px;
-      width: 590px;
-      height: 717px;
-      z-index: 2;
+    display: none;
     }
 
     .header__rectangle {
