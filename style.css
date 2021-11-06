@@ -763,15 +763,8 @@ flex: 1 1 auto;
   .second-page__rectangle {
     left: 55%;
   }
-
-  .third-page__subtitle4 {
-    display: none;
-  }
-
-  .third-page__arrow {
-    display: none;
-  }
 }
+
 
 @media (min-width: 1600px) {
   .wrapper__rectangle {
@@ -788,8 +781,18 @@ flex: 1 1 auto;
     display: none;
   }
 
+  .third-page__subtitle4 {
+    display: none;
+  }
+
   .third-page__arrow {
-    right: 17%;
+    display: none;
+  }
+}
+
+@media (max-width: 1599px) {
+   .third-page__arrow {
+    right: 14%;
   }
 }
 
@@ -803,7 +806,7 @@ flex: 1 1 auto;
   }
 
   .third-page__arrow {
-    right: 12%;
+    right: 9%;
   }
 }
 
