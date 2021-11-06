@@ -1536,9 +1536,13 @@ flex: 1 1 auto;
     left: 10%;
   }
 
+  .third-page__subtitle4 {
+    top: 281%;
+  }
+
   .third-page__arrow {
     right: 14%;
-    top: 293%;
+    top: 283%;
   }
 }
 
@@ -1768,7 +1772,7 @@ flex: 1 1 auto;
       }
 
       .third-page__subtitle4 {
-        top: 199%;
+        top: 194%;
         left: 53%;
         font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
         width: 140px;
@@ -1776,7 +1780,7 @@ flex: 1 1 auto;
 
       .third-page__arrow {
         width: 131px;
-        top: 205%;
+        top: 200%;
       }
 }
 
