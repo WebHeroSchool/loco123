@@ -242,7 +242,7 @@ flex: 1 1 auto;
 
 .first-page__title {
     position: relative;
-    top: -350px;
+    top: -39%;
     left: 29%;
     width: 100px;
     font: bold 80px/80px montserratbold, arial, helvetica, sans-serif;
@@ -1257,7 +1257,7 @@ flex: 1 1 auto;
     top: -1166px;
     left: 35%;
    }
-   
+
    .third-page__subtitle4 {
     top: 290%;
     left: 52%;
@@ -1500,7 +1500,7 @@ flex: 1 1 auto;
     left: 25%;
     width: 60%;
   }
-  
+
   .second-page__rectangle {
     left: 20%;
     width: 300px;
@@ -1525,7 +1525,7 @@ flex: 1 1 auto;
 
   .second-page__button2 {
     padding: 16px 30px 13px 30px ;
-  } 
+  }
 
   .third-page__clothes {
     width: 85%;
@@ -1758,7 +1758,7 @@ flex: 1 1 auto;
 
       .third-page__subtitle1 {
         font: bold 10px/10px montserratbold, arial, helvetica, sans-serif;
-      } 
+      }
 
       .third-page__subtitle2 {
         font: bold 9px/12px montserratregular, arial, helvetica, sans-serif;
@@ -1802,7 +1802,7 @@ flex: 1 1 auto;
     .image5 {
       left: -200px;
     }
-   
+
    .third-page__clothes {
       left: 1%;
    }
