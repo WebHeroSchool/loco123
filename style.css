@@ -1146,8 +1146,8 @@ flex: 1 1 auto;
 
     .first-page__title {
       position: relative;
-      top: 65%;
-      left: 5%;
+      top: 61%;
+      left: -10%;
       font: bold 68px/68px montserratbold, arial, helvetica, sans-serif;
       color: black;
       z-index: 2;
