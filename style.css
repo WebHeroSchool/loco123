@@ -242,8 +242,8 @@ flex: 1 1 auto;
 
 .first-page__title {
     position: relative;
-    top: -39%;
-    left: 29%;
+    margin-top: -33%;
+    margin-left: 29%;
     width: 100px;
     font: bold 80px/80px montserratbold, arial, helvetica, sans-serif;
     color: black;
@@ -254,8 +254,8 @@ flex: 1 1 auto;
 
   .first-page__subtitle1 {
     position: relative;
-    top: -402px;
-    left: 29%;
+    margin-top: -6%;
+    margin-left: 29%;
     font: 15px/21px montserratregular, arial, helvetica, sans-serif;
     color: black;
     width: 450px;
@@ -272,8 +272,8 @@ flex: 1 1 auto;
     color: black;
     background: white;
     padding: 11px 40px 12px 40px;
-    top: -381px;
-    left: 250px;
+    margin-top: 39px;
+    margin-left: 250px;
     text-decoration: none;
     border-radius: 4px;
     z-index: 2;
@@ -284,8 +284,8 @@ flex: 1 1 auto;
 
   .first-page__subtitle2 {
     position: relative;
-    top: -425px;
-    left: 58%;
+    margin-top: -31px;
+    margin-left: 58%;
     font: 13px/15px montserratmedium, arial, helvetica, sans-serif;
     width: 400px;
     color: black;
@@ -298,8 +298,8 @@ flex: 1 1 auto;
      background: no-repeat url(img/img6.svg);
      position: relative;
      padding: 2px;
-     top: -451px;
-     left: 80%;
+     margin-top: -3%;
+     margin-left: 80%;
      height: 9px;
      background-size: contain;
      z-index: 2;
@@ -827,7 +827,7 @@ flex: 1 1 auto;
 
   .header__logo2 {
     top: 3%;
-    left: 89%;
+    left: 69%;
   }
 
   .header__arrow-1 {
@@ -852,20 +852,20 @@ flex: 1 1 auto;
 
    .first-page__title {
      position: absolute;
-     top: 24%;
-     left: 55%;
+     margin-top: 20%;
+     margin-left: 26%;
    }
 
    .first-page__subtitle1 {
      position: absolute;
-     top: 49%;
-     left: 56%;
+     margin-top: 33%;
+     margin-left: 26%;
    }
 
    .first-page__btnandsubtitle {
      position: absolute;
-     top: 70%;
-     left: 55%;
+     margin-top: 41%;
+     margin-left: 7%;
    }
 
    .first-page__button {
@@ -875,15 +875,15 @@ flex: 1 1 auto;
 
    .first-page__subtitle2 {
      position: absolute;
-     top: 1%;
-     left: 127%;
+     margin-top: -5%;
+     margin-left: 110%;
    }
 
    .image6 {
      position: absolute;
      padding: 21px;
-     top: 34%;
-     left: 223%;
+     margin-top: -6%;
+     margin-left: 155%;
    }
 
    .image1 {
@@ -931,6 +931,25 @@ flex: 1 1 auto;
       height: 55%;
     }
 
+    .first-page__title {
+      margin-left: 16%;
+    }
+
+    .first-page__subtitle1 {
+      margin-left: 16%;
+      margin-top: 35%;
+    }
+
+    .first-page__btnandsubtitle {
+      margin-left: -3%;
+      margin-top: 45%;
+    }
+
+    .first-page__subtitle2 {
+      margin-left: 110%;
+      margin-top: -5%;
+    }
+
     .image1 {
       right: 55%;
     }
@@ -949,6 +968,14 @@ flex: 1 1 auto;
   }
 
   @media (max-width: 1288px) {
+    .first-page__subtitle1 {
+      margin-top: 37%;
+    }
+
+    .first-page__btnandsubtitle {
+      margin-top: 48%;
+    }
+
     .second-page__bag2 {
       display: none;
     }
@@ -991,6 +1018,10 @@ flex: 1 1 auto;
       right: 31%;
     }
 
+    .first-page__btnandsubtitle {
+      margin-left: -6%;
+    }
+
     .third-page__clothes {
       top: -790px;
       width: 60%;
@@ -1009,19 +1040,19 @@ flex: 1 1 auto;
 
   @media (max-width: 1129px) {
     .first-page__title {
-      left: 52%;
+      margin-left: 12%;
     }
 
-   .first-page__subtitle1 {
-     left: 53%;
-   }
+    .first-page__subtitle1 {
+      margin-left: 12%;
+    }
 
-    .first-page__subtitle2 {
-      left: 110%;
+    .first-page__btnandsubtitle {
+      margin-left: -10%;
     }
 
     .image6 {
-      left: 200%;
+      margin-left: 149%;
     }
 
     .third-page__clothes {
