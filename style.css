@@ -1686,6 +1686,10 @@ flex: 1 1 auto;
     left: -180%;
   }
 
+  .image5 {
+    top: 82%;
+  }
+
   .second-page__bag1 {
     top: -30px;
     left: 25%;
@@ -1733,6 +1737,7 @@ flex: 1 1 auto;
   .third-page__arrow {
     right: 14%;
     top: 293%;
+    height: 30px;
   }
 
   .menu__box {
@@ -1740,15 +1745,25 @@ flex: 1 1 auto;
   }
 }
 
-@media (max-width: 432px) {
+@media (max-width: 452px) {
+  .menu__box {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 438px) {
   .first-page {
     margin: 70px 0;
     height: 717px;
   }
 
   .menu__btn {
-    left: 78%;
-    top: 10%;
+    left: 73%;
+    top: 8%;
+  }
+
+  .menu__box {
+    padding: 0;
   }
 
   .header__logo1 {
@@ -1757,11 +1772,11 @@ flex: 1 1 auto;
 
   .first-page__title {
     font: bold 40px/40px montserratbold, arial, helvetica, sans-serif;
-    left: -250px;
+    left: -190px;
   }
 
   .image5 {
-    left: -290px;
+    left: -190px;
   }
 
   .wrap {
@@ -1811,7 +1826,7 @@ flex: 1 1 auto;
 
   @media (max-width: 375px) {
     .first-page {
-      margin: 86px 0;
+      margin: 14px 0;
       height: 590px;
     }
 
@@ -1820,15 +1835,24 @@ flex: 1 1 auto;
     }
 
     .header__logo1 {
-     top: 3px;
+     top: 1px;
      left: 29px;
      font: 30px/36px montserratmedium, arial, helvetica, sans-serif;
     }
 
+    .header__rectangle {
+      height: 13%;
+      top: -1px;
+    }
+
+    .menu__box {
+      padding: 0;
+    }
+
     .menu__btn {
-      left: 86%;
-      top: 8%;
-      padding: 28px 16px;
+      left: 85%;
+      top: 5px;
+      padding: 28px 12px;
     }
 
     .menu__btn > span::after {
@@ -1837,36 +1861,37 @@ flex: 1 1 auto;
     }
 
     .first-page__title {
-      left: -298px;
+      left: -220px;
+      top: 68%;
       font: bold 50px/51px montserratbold, arial, helvetica, sans-serif;
     }
 
     .image5 {
-      left: -250px;
+      left: -152px;
       padding: 18px;
     }
 
     .wrap {
-       top: 669px;
+       top: 606px;
        height: 595px;
     }
 
     .second-page__bag1 {
        height: 326px;
-       top: -70px;
-       left: 73px;
+       top: -80px;
+       left: 78px;
        width: 224px;
     }
 
     .second-page__rectangle {
-       top: -83px;
+       top: -90px;
        left: 30px;
-       width: 320px;
+       width: 314px;
        height: 281px;
      }
 
      .second-page__title {
-        top: 5px;
+        top: 3px;
         left: 8%;
         font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
       }
@@ -1885,36 +1910,37 @@ flex: 1 1 auto;
      }
 
      .second-page__grey-circle {
-       top: 160px;
-       left: 10%;
+       top: 162px;
+       left: 11%;
        width: 23px;
        height: 23px;
      }
 
      .second-page__pink-circle {
-       top: 158px;
-       left: 20%;
+       top: 160px;
+       left: 21%;
        width: 29px;
        height: 29px;
      }
 
      .second-page__blue-circle {
-       top: 160px;
-       left: 32%;
+       top: 162px;
+       left: 33%;
        width: 23px;
        height: 23px;
      }
 
      .second-page__green-circle {
-       top: 160px;
-       left: 42%;
+       top: 162px;
+       left: 43%;
        width: 23px;
        height: 23px;
      }
 
      .second-page__subtitle3 {
-       top: 144px;
-       left: 68%;
+       top: 145px;
+       left: 70%;
+       width: 90px;
        font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
      }
 
@@ -1926,16 +1952,16 @@ flex: 1 1 auto;
      }
 
      .wrap2 {
-       top: 1263px;
+       top: 1193px;
        height: 595px;
      }
 
      .third-page {
-       height: 200px;
+       height: 190px;
      }
 
      .third-page__rectangle {
-       top: -400px;
+       top: -325px;
        left: 28%;
        width: 43px;
        height: 595px;
@@ -1944,46 +1970,51 @@ flex: 1 1 auto;
      .third-page__clothes {
        width: 95%;
        left: 4%;
-       top: -960px;
+       top: -885px;
        height: 322px;
      }
 
      .third-page__rectangle1 {
        width: 305px;
        height: 195px;
-       top: -1340px;
+       top: -965px;
        left: 12%;
      }
 
      .third-page__title {
        font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
-       top: 5%;
+       top: 3%;
+       width: 200px;
      }
 
       .third-page__subtitle1 {
         font: bold 10px/10px montserratbold, arial, helvetica, sans-serif;
+        top: 20%;
       }
 
       .third-page__subtitle2 {
         font: bold 9px/12px montserratregular, arial, helvetica, sans-serif;
-        top: 33%;
+        top: 31%;
+        width: 250px;
       }
 
       .third-page__button2 {
         top: 65%;
-        padding: 13px 45px 12px 42px;
+        left: 9%;
+        padding: 10px 45px 10px 42px;
       }
 
       .third-page__subtitle4 {
-        top: 194%;
-        left: 53%;
+        top: 310%;
+        left: 52%;
         font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
         width: 140px;
       }
 
       .third-page__arrow {
         width: 131px;
-        top: 200%;
+        top: 320%;
+        height: 30px;
       }
 }
 
