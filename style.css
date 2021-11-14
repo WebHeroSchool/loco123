@@ -185,7 +185,7 @@ body {
   visibility: hidden;
   top: 0;
   left: 0;
-  width: 100%;
+  max-width: 100%;
   height: 30%;
   padding: 50px 50px;
   list-style: none;
@@ -367,7 +367,7 @@ flex: 1 1 auto;
    position: absolute;
    padding: 23px;
    height: 47px;
-   top: 90%;
+   margin-top: 55%;
    left: 49%;
    background-size: contain;
    z-index: 2;
@@ -962,7 +962,7 @@ flex: 1 1 auto;
 
    .image4 {
      right: 52%;
-     top: 89%;
+     margin-top: 58%;
    }
 
    .second-page__bag1 {
@@ -1029,6 +1029,10 @@ flex: 1 1 auto;
       left: -1036px;
     }
 
+    .image4 {
+      margin-top: 60%;
+    }
+
     .third-page__subtitle4 {
       left: 62%;
     }
@@ -1047,6 +1051,10 @@ flex: 1 1 auto;
 
     .first-page__btnandsubtitle {
       margin-top: 48%;
+    }
+
+    .image4 {
+      margin-top: 63%;
     }
 
     .second-page__bag2 {
@@ -1090,6 +1098,7 @@ flex: 1 1 auto;
     .image4 {
       right: 31%;
       padding: 2px;
+      margin-top: 68%;
     }
 
     .image6 {
@@ -1120,6 +1129,10 @@ flex: 1 1 auto;
     .second-page__subtitle3 {
       width: 150px;
     }
+
+    .image4 {
+      margin-top: 72%;
+    }
   }
 
   @media (max-width: 1129px) {
@@ -1133,6 +1146,22 @@ flex: 1 1 auto;
 
     .first-page__btnandsubtitle {
       left: 17%;
+    }
+
+    .image1 {
+      left: -900px;
+    }
+
+    .image2 {
+      left: -890px;
+    }
+
+    .image3 {
+      left: -880px;
+    }
+
+    .image4 {
+      margin-top: 74%;
     }
 
     .image6 {
@@ -1385,6 +1414,14 @@ flex: 1 1 auto;
     .third-page__rectangle1 {
       top: -1166px;
       left: 45%;
+    }
+
+    .third-page__subtitle4 {
+      top: 285%;
+    }
+
+    .third-page__arrow {
+      top: 286%;
     }
   }
 
@@ -1883,8 +1920,8 @@ flex: 1 1 auto;
     }
 
     .first-page__title {
-      left: -220px;
-      top: 68%;
+      left: -185px;
+      top: 67%;
       font: bold 50px/51px montserratbold, arial, helvetica, sans-serif;
     }
 
@@ -2027,7 +2064,7 @@ flex: 1 1 auto;
       }
 
       .third-page__subtitle4 {
-        top: 191%;
+        top: 193%;
         left: 52%;
         font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
         width: 140px;
@@ -2035,7 +2072,7 @@ flex: 1 1 auto;
 
       .third-page__arrow {
         width: 131px;
-        top: 197%;
+        top: 199%;
         height: 10px;
       }
 }
