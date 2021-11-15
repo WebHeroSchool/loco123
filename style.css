@@ -5,7 +5,6 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  outline: 1px solid red;
 }
 
 .wrapper__rectangle {
@@ -16,14 +15,12 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  outline: 1px solid red;
 }
 
 .first-page {
   width: 100%;
   height: 900px;
   display: flex;
-  outline: 1px solid red;
 }
 
 .header {
@@ -40,7 +37,6 @@ body {
   font: 30px/30px montserratmedium, arial, helvetica, sans-serif;
   color: white;
   z-index: 3;
-  outline: 1px solid red;
 }
 
 .header__logo2 {
@@ -50,7 +46,6 @@ body {
    font: 20px/20px montserratmedium, arial, helvetica, sans-serif;
    color: white;
    z-index: 3;
-   outline: 1px solid red;
 }
 
 .header__rectangle {
@@ -65,7 +60,6 @@ body {
    width: 66px;
    height: 30px;
    z-index: 2;
-   outline: 1px solid red;
 }
 
 .header__arrow-1-left {
@@ -80,7 +74,6 @@ body {
     float: right;
     border-radius: 2px;
     z-index: 2;
-    outline: 1px solid red;
 }
 
 .header__arrow-1-left:after {
@@ -107,7 +100,6 @@ body {
     float: right;
     border-radius: 2px;
     z-index: 3;
-    outline: 1px solid red;
 }
 
 .header__arrow-1-right:after {
@@ -156,7 +148,6 @@ body {
   padding: 35px 35px;
   margin: -10px 2px 0;
   z-index: 2;
-  outline: 1px solid red;
 }
 
 .menu__btn > span,
@@ -192,7 +183,6 @@ body {
   text-align: center;
   background-color: mistyrose;
   z-index: 3;
-  outline: 1px solid red;
 }
 
 .menu__item {
@@ -203,7 +193,6 @@ body {
   font: 600 28px/13px 'Roboto', sans-serif;
   text-decoration: none;
   z-index: 3;
-  outline: 1px solid red;
 }
 
 .menu__item:hover {
@@ -247,7 +236,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 2;
   flex-basis: 855px;
-  outline: 1px solid red;
 }
 
 .first-page__title {
@@ -260,7 +248,6 @@ flex: 1 1 auto;
     display: flex;
     flex-shrink: 1;
     flex-basis: 475px;
-    outline: 1px solid red;
   }
 
   .first-page__subtitle1 {
@@ -274,7 +261,6 @@ flex: 1 1 auto;
     display: flex;
     flex-shrink: 1;
     flex-basis: 467px;
-    outline: 1px solid red;
   }
 
   .first-page__button {
@@ -292,7 +278,6 @@ flex: 1 1 auto;
     display: flex;
     flex-shrink: 0.3;
     flex-basis: 203px;
-    outline: 1px solid red;
   }
 
   .first-page__subtitle2 {
@@ -305,7 +290,6 @@ flex: 1 1 auto;
     display: flex;
     flex-shrink: 0.3;
     flex-basis: 172px;
-    outline: 1px solid red;
   }
 
   .image6 {
@@ -320,7 +304,6 @@ flex: 1 1 auto;
      display: flex;
      flex-shrink: 0.3;
      flex-shrink: 43px;
-     outline: 1px solid red;
   }
 
   .footer {
@@ -337,7 +320,6 @@ flex: 1 1 auto;
    left: -1246px;
    background-size: contain;
    z-index: 2;
-   outline: 1px solid red;
 }
 
 .image2 {
@@ -348,7 +330,6 @@ flex: 1 1 auto;
    left: -1232px;
    background-size: contain;
    z-index: 2;
-   outline: 1px solid red;
 }
 
 .image3 {
@@ -359,7 +340,6 @@ flex: 1 1 auto;
    left: -1217px;
    background-size: contain;
    z-index: 2;
-   outline: 1px solid red;
 }
 
 .image4 {
@@ -371,14 +351,12 @@ flex: 1 1 auto;
    left: 49%;
    background-size: contain;
    z-index: 2;
-   outline: 1px solid red;
-}
+ }
 
 .second-page {
    width: 100%;
    height: 900px;
    display: flex;
-   outline: 1px solid red;
 }
 
 .wrap {
@@ -389,7 +367,6 @@ flex: 1 1 auto;
    width: 100%;
    background-color: #fae8e4;
    z-index: 1;
-   outline: 1px solid red;
 }
 
 .second-page__content {
@@ -410,7 +387,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 2;
   flex-basis: 575px;
-  outline: 1px solid red;
 }
 
 .second-page__bag2 {
@@ -425,7 +401,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 2;
   flex-basis: 400px;
-  outline: 1px solid red;
 }
 
 .second-page__rectangle {
@@ -439,7 +414,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 2;
   flex-basis: 488px;
-  outline: 1px solid red;
 }
 
 .second-page__title {
@@ -451,7 +425,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 1;
   flex-basis: 500px;
-  outline: 1px solid red;
 }
 
 .second-page__subtitle1 {
@@ -465,7 +438,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 1;
   flex-basis: 500px;
-  outline: 1px solid red;
 }
 
 .second-page__subtitle2 {
@@ -479,7 +451,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   width: 368px;
   flex-basis: 368px;
-  outline: 1px solid red;
 }
 
 .second-page__grey-circle {
@@ -493,7 +464,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   flex-basis: 30px;
   border-radius: 50%;
-  outline: 1px solid red;
 }
 
 .second-page__pink-circle {
@@ -507,7 +477,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   flex-basis: 39px;
   border-radius: 50%;
-  outline: 1px solid red;
 }
 
 .second-page__blue-circle {
@@ -521,7 +490,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   flex-basis: 30px;
   border-radius: 50%;
-  outline: 1px solid red;
 }
 
 .second-page__green-circle {
@@ -535,7 +503,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   flex-basis: 30px;
   border-radius: 50%;
-  outline: 1px solid red;
 }
 
 .second-page__subtitle3 {
@@ -548,7 +515,6 @@ flex: 1 1 auto;
   flex-shrink: 1;
   width: 200px;
   flex-basis: 200px;
-  outline: 1px solid red;
 }
 
 .second-page__button1 {
@@ -565,8 +531,7 @@ flex: 1 1 auto;
   z-index: 2;
   display: flex;
   flex-shrink: 0.3;
-  flex-basis: 203px;
-  outline: 1px solid red;
+  flex-basis: 203px;]
 }
 
 .second-page__button2 {
@@ -584,7 +549,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0.3;
   flex-basis: 203px;
-  outline: 1px solid red;
 }
 
 .second-page__footer {
@@ -603,7 +567,6 @@ flex: 1 1 auto;
   flex-shrink: 0;
   width: 299px;
   flex-basis: 299px;
-  outline: 1px solid red;
 }
 
 .second-page__arrow {
@@ -618,14 +581,12 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0;
   flex-basis: 241px;
-  outline: 1px solid red;
 }
 
 .third-page {
    width: 100%;
    height: 900px;
    display: flex;
-   outline: 1px solid red;
 }
 
 .wrap2 {
@@ -636,7 +597,6 @@ flex: 1 1 auto;
    width: 100%;
    background-color: #ebe3d8;
    z-index: 1;
-   outline: 1px solid red;
 }
 
 .third-page__content {
@@ -655,7 +615,6 @@ flex: 1 1 auto;
    display: flex;
    flex-shrink: 2;
    flex-basis: 73px;
-   outline: 1px solid red;
 }
 
 .third-page__clothes {
@@ -670,7 +629,6 @@ flex: 1 1 auto;
    display: flex;
    flex-shrink: 2;
    flex-basis: 900px;
-   outline: 1px solid red;
 }
 
 .third-page__rectangle1 {
@@ -684,7 +642,6 @@ flex: 1 1 auto;
    display: flex;
    flex-shrink: 2;
    flex-basis: 475px;
-   outline: 1px solid red;
 }
 
 .third-page__title {
@@ -697,7 +654,6 @@ flex: 1 1 auto;
    width: 400px;
    flex-shrink: 1;
    flex-basis: 500px;
-   outline: 1px solid red;
 }
 
 .third-page__subtitle1 {
@@ -711,7 +667,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 1;
   flex-basis: 500px;
-  outline: 1px solid red;
 }
 
 .third-page__subtitle2 {
@@ -725,7 +680,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 1;
   flex-basis: 500px;
-  outline: 1px solid red;
 }
 
 .third-page__button1 {
@@ -743,7 +697,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0.3;
   flex-basis: 203px;
-  outline: 1px solid red;
 }
 
 .third-page__button2 {
@@ -761,7 +714,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0.3;
   flex-basis: 203px;
-  outline: 1px solid red;
 }
 
 .third-page__footer {
@@ -781,7 +733,6 @@ flex: 1 1 auto;
   width: 299px;
   flex-basis: 100px;
   z-index: 2;
-  outline: 1px solid red;
 }
 
 .third-page__arrow {
@@ -796,7 +747,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0;
   flex-basis: 241px;
-  outline: 1px solid red;
 }
 
 @media (max-width: 2500px) {
