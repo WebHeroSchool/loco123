@@ -269,7 +269,7 @@ flex: 1 1 auto;
     font: 13px/20px montserratmedium, arial, helvetica, sans-serif;
     color: black;
     background: white;
-    padding: 9px 40px 12px 40px;
+    padding: 9px 40px 11px 40px;
     margin-top: 44px;
     margin-left: 355px;
     text-decoration: none;
@@ -540,9 +540,9 @@ flex: 1 1 auto;
   font: 13px/13px montserratmedium, arial, helvetica, sans-serif;
   color: black;
   background: white;
-  padding: 14px 45px 14px 39px;
+  padding: 14px 45px 14px 41px;
   top: 466px;
-  left: 35%;
+  left: 34%;
   text-decoration: none;
   border-radius: 4px;
   z-index: 2;
@@ -572,8 +572,8 @@ flex: 1 1 auto;
 .second-page__arrow {
   background: no-repeat url(img/Vector.png);
   position: absolute;
-  top: 768px;
-  right: 80px;
+  top: 766px;
+  right: 78px;
   width: 241px;
   height: 50px;
   background-size: contain;
@@ -1061,51 +1061,91 @@ flex: 1 1 auto;
     width: 461px;
   }
 
+  .header__logo2 {
+    left: 94%;
+  }
+
+  .header__arrow-1 {
+    left: 90px;
+  }
+
+  .header__arrow-1-right {
+    left: 385%;
+    width: 1px;
+  }
+
+  .header__arrow-1-left {
+    left: 375%;
+    width: 1px;
+  }
+
   .image {
-    right: 27%;
+    right: 26%;
+  }
+
+  .first-page__title {
+    margin-top: -285px;
+    margin-left: 375px;
   }
 
   .first-page__subtitle1 {
-    margin-top: -5%;
+    margin-top: -50px;
+    margin-left: 375px;
+  }
+
+  .first-page__subtitle2 {
+    margin-left: 630px;
   }
 
   .first-page__button {
     margin-top: 39px;
-    margin-left: 41%;
+    margin-left: 42%;
   }
 
   .image6 {
-    margin-left: 92%;
-    margin-top: 56%;
+    margin-left: 822px;
+    margin-top: -27px;
+    width: 39px;
   }
 
   .menu__btn {
-    left: 371%;
-    width: 20px;
+    left: 386%;
+    width: 10px;
   }
 
+  .menu__btn > span::after {
+    content: '';
+    top: 7px;
+}
+
   .image1 {
-    left: -1250px;
+    left: -1245px;
+    top: 817px;
+    padding: 21px;
   }
 
   .image2 {
-    left: -1237px;
+    left: -1232px;
+    padding: 21px;
+    top: 817px;
   }
 
   .image3 {
-    left: -1220px;
+    left: -1219px;
+    top: 817px;
+    padding: 21px;
   }
 
   .image4 {
-    margin-top: 56%;
-  }
-
-  .image6 {
-    margin-top: -3%;
+    margin-top: 793px;
   }
 
   .second-page__bag1 {
-    left: 17%;
+    left: 16%;
+  }
+
+  .second-page__title {
+    left: 51px;
   }
 
   .second-page__bag2 {
@@ -1118,6 +1158,11 @@ flex: 1 1 auto;
 
   .second-page__subtitle1 {
     left: 11%;
+  }
+
+  .second-page__subtitle3 {
+    left: 285px;
+    top: 323px;
   }
 }
 
