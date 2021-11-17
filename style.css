@@ -2024,6 +2024,7 @@ flex: 1 1 auto;
 
   .third-page__subtitle4 {
     top: 285%;
+    width: 259px;
   }
 
   .third-page__arrow {
@@ -2103,10 +2104,16 @@ flex: 1 1 auto;
 
   .third-page__title {
     font: bold 25px/25px montserratbold, arial, helvetica, sans-serif;
+    top: 5%;
   }
 
   .third-page__subtitle4 {
     width: 250px;
+    top: 275%;
+  }
+
+  .third-page__arrow {
+    top: 280%;
   }
 }
 
@@ -2138,6 +2145,10 @@ flex: 1 1 auto;
 @media (max-width: 392px) {
    .menu__item {
     font: 400 14px/13px 'Roboto', sans-serif;
+  }
+
+  .third-page__subtitle4 {
+    width: 200px;
   }
 }
 
