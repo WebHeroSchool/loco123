@@ -174,8 +174,8 @@ body {
   display: block;
   position: relative;
   visibility: hidden;
-  top: 0;
-  left: 0;
+  top: -2%;
+  left: -64%;
   max-width: 100%;
   height: 30%;
   padding: 50px 50px;
@@ -216,7 +216,7 @@ body {
 
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
-  left: 0;
+  left: -64%;
  }
 
 .content {
@@ -468,21 +468,21 @@ flex: 1 1 auto;
 
 .second-page__pink-circle {
   position: absolute;
-  top: 375px;
-  left: 20%;
+  top: 373px;
+  left: 19%;
   background-color: #f29f9f;
-  width: 39px;
-  height: 39px;
+  width: 37px;
+  height: 37px;
   display: flex;
   flex-shrink: 1;
-  flex-basis: 39px;
+  flex-basis: 37px;
   border-radius: 50%;
 }
 
 .second-page__blue-circle {
   position: absolute;
-  top: 375px;
-  left: 30%;
+  top: 377px;
+  left: 29%;
   background-color: #a8bff9;
   width: 30px;
   height: 30px;
@@ -494,8 +494,8 @@ flex: 1 1 auto;
 
 .second-page__green-circle {
   position: absolute;
-  top: 375px;
-  left: 39%;
+  top: 376px;
+  left: 38%;
   background-color: #90bd8f;
   width: 30px;
   height: 30px;
@@ -531,7 +531,7 @@ flex: 1 1 auto;
   z-index: 2;
   display: flex;
   flex-shrink: 0.3;
-  flex-basis: 203px;]
+  flex-basis: 203px;
 }
 
 .second-page__button2 {
@@ -747,6 +747,7 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0;
   flex-basis: 241px;
+  outline: 1px solid red;
 }
 
 @media (max-width: 2500px) {
@@ -2256,8 +2257,8 @@ flex: 1 1 auto;
 
     .menu__btn {
       left: 85%;
-      top: 5px;
-      padding: 28px 12px;
+      top: 1px;
+      padding: 28px 20px;
     }
 
     .menu__btn > span::after {
@@ -2266,18 +2267,19 @@ flex: 1 1 auto;
     }
 
     .first-page__title {
-      left: -185px;
-      top: 67%;
+      left: -177px;
+      top: 66%;
       font: bold 50px/51px montserratbold, arial, helvetica, sans-serif;
     }
 
     .image5 {
       left: -152px;
       padding: 18px;
+      top: 92%;
     }
 
     .wrap {
-       top: 606px;
+       top: 603px;
        height: 595px;
     }
 
@@ -2296,20 +2298,20 @@ flex: 1 1 auto;
      }
 
      .second-page__title {
-        top: 3px;
+        top: 5px;
         left: 8%;
         font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
       }
 
      .second-page__subtitle1 {
-       top: 32px;
+       top: 34px;
        left: 9%;
        font: bold 10px/10px montserratbold, arial, helvetica, sans-serif;
      }
 
      .second-page__subtitle2 {
        width: 260px;
-       top: 57px;
+       top: 59px;
        left: 9%;
        font: 9px/13px montserratregular, arial, helvetica, sans-serif;
      }
@@ -2343,7 +2345,7 @@ flex: 1 1 auto;
      }
 
      .second-page__subtitle3 {
-       top: 145px;
+       top: 147px;
        left: 70%;
        width: 90px;
        font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
@@ -2352,13 +2354,13 @@ flex: 1 1 auto;
      .second-page__button2 {
        font: 13px/13px montserratmedium, arial, helvetica, sans-serif;
        padding: 10px 48px 10px 48px;
-       top: 220px;
+       top: 222px;
        left: 9%;
      }
 
      .wrap2 {
        top: 1193px;
-       height: 595px;
+       height: 630px;
      }
 
      .third-page {
@@ -2369,20 +2371,20 @@ flex: 1 1 auto;
        top: -325px;
        left: 28%;
        width: 43px;
-       height: 595px;
+       height: 630px;
      }
 
      .third-page__clothes {
        width: 95%;
        left: 4%;
-       top: -885px;
+       top: -920px;
        height: 322px;
      }
 
      .third-page__rectangle1 {
        width: 305px;
        height: 195px;
-       top: -965px;
+       top: -1000px;
        left: 12%;
      }
 
@@ -2406,21 +2408,21 @@ flex: 1 1 auto;
       .third-page__button2 {
         top: 65%;
         left: 9%;
-        padding: 10px 45px 10px 42px;
+        padding: 10px 45px 10px 45px;
       }
 
       .third-page__subtitle4 {
-        top: 323%;
+        top: 191%;
         left: 52%;
         font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
         width: 140px;
       }
 
       .third-page__arrow {
-        width: 131px;
-        top: 334%;
+        width: 101px;
+        top: 197%;
         height: 10px;
-        right: 0;
+        right: 28px;
       }
 }
 
