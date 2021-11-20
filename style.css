@@ -747,7 +747,6 @@ flex: 1 1 auto;
   display: flex;
   flex-shrink: 0;
   flex-basis: 241px;
-  outline: 1px solid red;
 }
 
 @media (max-width: 2500px) {
