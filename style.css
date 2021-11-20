@@ -163,11 +163,13 @@ body {
 .menu__btn > span::before {
   content: '';
   top: 0px;
+  position: absolute;
 }
 
 .menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 10px;
+  position: absolute;
 }
 
 .menu__box {
@@ -675,7 +677,7 @@ flex: 1 1 auto;
   left: 9%;
   font: bold 15px/21px montserratregular, arial, helvetica, sans-serif;
   opacity: 0.5;
-  width: 500px;
+  width: 350px;
   color: black;
   display: flex;
   flex-shrink: 1;
@@ -1115,7 +1117,7 @@ flex: 1 1 auto;
 
   .menu__btn > span::after {
     content: '';
-    top: 7px;
+    top: 10px;
 }
 
   .image1 {
@@ -2027,6 +2029,11 @@ flex: 1 1 auto;
   .second-page__subtitle3 {
     width: 100px;
   }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: -70%;
+   }
 }
 
 @media (max-width: 492px) {
@@ -2038,6 +2045,11 @@ flex: 1 1 auto;
 @media (max-width: 475px) {
   .first-page__title {
     left: -180%;
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: -87%;
   }
 
   .image5 {
@@ -2181,6 +2193,16 @@ flex: 1 1 auto;
 }
 
 @media (max-width: 424px) {
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: -113%;
+ }
+
+  .menu__box {
+    padding: 13px;
+    top: -12%;
+  }
+
   .menu__item {
   font: 500 18px/13px 'Roboto', sans-serif
  }
@@ -2198,7 +2220,17 @@ flex: 1 1 auto;
  }
 }
 
+@media (max-width: 416px) {
+  .menu__box {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 410px) {
+  .menu__item {
+    font: 500 17px/13px 'Roboto', sans-serif;
+  }
+
   .third-page__subtitle4 {
     width: 230px;
     left: 40%;
@@ -2213,7 +2245,7 @@ flex: 1 1 auto;
   }
 }
 
-@media (max-width: 392px) {
+@media (max-width: 400px) {
    .menu__item {
     font: 400 14px/13px 'Roboto', sans-serif;
   }
@@ -2221,6 +2253,15 @@ flex: 1 1 auto;
   .third-page__subtitle4 {
     width: 200px;
   }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: -147%;
+   }
+
+   .menu__box {
+     padding: 0;
+   }
 }
 
 @media (max-width: 381px) {
@@ -2246,28 +2287,38 @@ flex: 1 1 auto;
     }
 
     .header__rectangle {
-      height: 8%;
+      height: 69px;
       top: -1px;
     }
 
     .menu__box {
-      padding: 0;
+      padding: 20px;
+      top: -4%;
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: -84%;
     }
 
     .menu__btn {
       left: 85%;
-      top: 1px;
+      top: 5px;
       padding: 28px 20px;
     }
 
     .menu__btn > span::after {
       content: '';
-      top: 5px;
+      top: 7px;
+    }
+
+    .menu__item {
+       font: 600 15px/13px 'Roboto', sans-serif;
     }
 
     .first-page__title {
-      left: -177px;
-      top: 66%;
+      left: -211px;
+      top: 400px;
       font: bold 50px/51px montserratbold, arial, helvetica, sans-serif;
     }
 
@@ -2279,7 +2330,7 @@ flex: 1 1 auto;
 
     .wrap {
        top: 603px;
-       height: 595px;
+       height: 598px;
     }
 
     .second-page__bag1 {
@@ -2298,7 +2349,7 @@ flex: 1 1 auto;
 
      .second-page__title {
         top: 5px;
-        left: 8%;
+        left: 27px;
         font: bold 20px/20px montserratbold, arial, helvetica, sans-serif;
       }
 
@@ -2359,7 +2410,7 @@ flex: 1 1 auto;
 
      .wrap2 {
        top: 1193px;
-       height: 630px;
+       height: 598px;
      }
 
      .third-page {
@@ -2370,20 +2421,20 @@ flex: 1 1 auto;
        top: -325px;
        left: 28%;
        width: 43px;
-       height: 630px;
+       height: 598px;
      }
 
      .third-page__clothes {
-       width: 95%;
-       left: 4%;
-       top: -920px;
+       width: 97%;
+       left: 3%;
+       top: -891px;
        height: 322px;
      }
 
      .third-page__rectangle1 {
        width: 305px;
        height: 195px;
-       top: -1000px;
+       top: -968px;
        left: 12%;
      }
 
@@ -2401,7 +2452,7 @@ flex: 1 1 auto;
       .third-page__subtitle2 {
         font: bold 9px/12px montserratregular, arial, helvetica, sans-serif;
         top: 31%;
-        width: 250px;
+        width: 230px;
       }
 
       .third-page__button2 {
@@ -2411,7 +2462,7 @@ flex: 1 1 auto;
       }
 
       .third-page__subtitle4 {
-        top: 191%;
+        top: 1686px;
         left: 52%;
         font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
         width: 140px;
@@ -2419,7 +2470,7 @@ flex: 1 1 auto;
 
       .third-page__arrow {
         width: 101px;
-        top: 197%;
+        top: 1741px;
         height: 10px;
         right: 28px;
       }
