@@ -1786,7 +1786,8 @@ flex: 1 1 auto;
     }
 
     .second-page__title {
-      font: bold 35px/35px montserratbold, arial, helvetica, sans-serif;;
+      font: bold 35px/35px montserratbold, arial, helvetica, sans-serif;
+      left: 11%;
     }
 
     .second-page__subtitle2 {
