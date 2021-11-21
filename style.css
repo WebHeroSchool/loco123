@@ -2683,13 +2683,13 @@ flex: 1 1 auto;
     }
 
     .menu__box {
-      padding: 20px;
-      top: -4%;
+      padding: 167px;
+      top: -5%;
     }
 
     #menu__toggle:checked ~ .menu__box {
     visibility: visible;
-    left: -84%;
+    left: -40%;
     }
 
     .menu__btn {
@@ -2704,19 +2704,21 @@ flex: 1 1 auto;
     }
 
     .menu__item {
-       font: 600 15px/13px 'Roboto', sans-serif;
+       font: 600 30px/13px 'Roboto', sans-serif;
     }
 
     .first-page__title {
-      left: -217px;
-      top: 398px;
+      left: -22px;
+      top: 342px;
       font: bold 50px/51px montserratbold, arial, helvetica, sans-serif;
+      position: absolute;
     }
 
     .image5 {
-      left: -168px;
+      left: 170px;
       padding: 18px;
-      top: 542px;
+      top: 556px;
+      position: absolute;
     }
 
     .wrap {
