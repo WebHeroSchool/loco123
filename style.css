@@ -1106,7 +1106,7 @@ flex: 1 1 auto;
   }
 
   .header__logo2 {
-    left: 94%;
+    left: 90%;
   }
 
   .header__arrow-1 {
@@ -1124,38 +1124,38 @@ flex: 1 1 auto;
   }
 
   .image {
-    right: 25%;
+    right: 28%;
   }
 
   .first-page__title {
     margin-top: -285px;
-    margin-left: 375px;
+    margin-left: 355px;
   }
 
   .first-page__subtitle1 {
     margin-top: -50px;
-    margin-left: 375px;
+    margin-left: 358px;
   }
 
   .first-page__subtitle2 {
-    margin-left: 630px;
+    margin-left: 611px;
   }
 
   .first-page__button {
     margin-top: 38px;
-    margin-left: 373px;
+    margin-left: 355px;
     padding: 9px 39px 10px 37px;
   }
 
   .image6 {
-    margin-left: 822px;
+    margin-left: 801px;
     margin-top: -27px;
     width: 39px;
   }
 
   .menu__btn {
-    left: 386%;
-    width: 10px;
+    left: 1223px;
+    width: 29px;
   }
 
   .menu__btn > span::after {
