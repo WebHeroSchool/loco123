@@ -141,15 +141,13 @@ body {
 .menu__btn {
   display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 360%;
   width: 28px;
   height: 32px;
   cursor: pointer;
   background-color: #f5f5f5;
-  padding: 35px 35px;
-  margin: -10px 2px 0;
   z-index: 2;
   outline: 1px solid red;
 }
@@ -178,13 +176,12 @@ body {
 
 .menu__box {
   display: block;
-  position: relative;
+  position: фиыщдгеуabsolute;
   visibility: hidden;
   top: -2%;
-  left: -64%;
+  left: 0;
   max-width: 100%;
   height: 30%;
-  padding: 50px 50px;
   list-style: none;
   text-align: center;
   background-color: mistyrose;
