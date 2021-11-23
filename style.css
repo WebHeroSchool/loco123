@@ -148,8 +148,7 @@ body {
   height: 32px;
   cursor: pointer;
   background-color: #f5f5f5;
-  padding: 35px 35px;
-  margin: -10px 2px 0;
+  padding: 35px;
   z-index: 2;
 }
 
