@@ -143,20 +143,21 @@ body {
   align-items: center;
   position: absolute;
   top: 0;
-  left: 360%;
-  width: 100px;
-  height: 100px;
+  left: 486%;
+  width: 26px;
+  height: 32px;
   cursor: pointer;
   background-color: #f5f5f5;
+  padding: 35px 35px;
+  margin: -10px 2px 0;
   z-index: 2;
-  outline: 1px solid red;
 }
 
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
   display: block;
-  position: absolute;
+  position: relative;
   width: 35px;
   height: 3px;
   background-color: black;
@@ -165,13 +166,11 @@ body {
 .menu__btn > span::before {
   content: '';
   top: 0px;
-  position: absolute;
 }
 
 .menu__btn > span::after {
   content: '';
   top: 10px;
-  position: absolute;
 }
 
 .menu__box {
@@ -179,15 +178,15 @@ body {
   position: absolute;
   visibility: hidden;
   top: 0;
-  left: 0;
-  width: 300px;
-  height: 70%;
-  padding: 80px 0;
+  left: -100%;
+  width: 30%;
+  height: 30%;
+  padding: 40px 0;
   list-style: none;
   text-align: center;
   background-color: mistyrose;
+  box-shadow: 28px 14px 24px rgba(0, 0, 0, .9);
   z-index: 3;
-  outline: 1px solid red;
 }
 
 .menu__item {
@@ -1152,14 +1151,8 @@ flex: 1 1 auto;
   }
 
   .menu__btn {
-    left: 1223px;
-    width: 100px;
+    left: 1023px;
   }
-
-  .menu__btn > span::after {
-    content: '';
-    top: 10px;
-}
 
   .image1 {
     left: -1263px;
